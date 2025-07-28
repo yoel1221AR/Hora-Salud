@@ -1,0 +1,12 @@
+<!-- <app-fs-side-nav></app-fs-side-nav>
+<router-outlet></router-outlet> -->
+
+<app-fs-header></app-fs-header> <!-- Header fijo arriba -->
+
+<div class="main-layout">
+  <app-fs-side-nav class="side-nav"></app-fs-side-nav> <!-- Sidebar -->
+  
+  <div class="content">
+    <router-outlet></router-outlet> <!-- Aquí se carga el contenido dinámico -->
+  </div>
+</div>

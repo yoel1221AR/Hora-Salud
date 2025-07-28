@@ -1,0 +1,49 @@
+@import "src/app/ab-styles/variables/color.scss";
+
+@mixin titleNavbar() {
+  color: $primary !important;
+  font-size: 1rem;
+  font-weight: 600;
+}
+@mixin titlePanelDashboard() {
+  color: $primary-secondary !important;
+  font-size: 1.5rem;
+  font-weight: 500;
+    font-family: Roboto, Arial;
+    display: flex;
+    
+}
+@mixin titlePanelDashboardOption() {
+  color: $tertiary !important;
+    font-family: Helvetica Neuw, Arial, Helvetica, sans-serif, Arial;
+    font-size: 0.9rem;
+   
+}
+@mixin titlePanelDashboardOptionOff() {
+  color: $black-grey !important;
+  font-size: 0.85rem;
+    font-family: Roboto, Arial;
+}
+@mixin titlePanelDashboardTextOff() {
+  color: $black-grey !important;
+  font-size: 0.8rem;
+    font-family: Roboto, Arial;
+}
+
+@mixin titleSectionHome() {
+  color: $white;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+@mixin textgeneral() {
+  color: $black-1;
+  font-size: 100%;
+}
+
+@mixin titleContact() {
+  color: $primary !important;
+  font-size: 1rem;
+  font-weight: 600;
+}
+

@@ -1,0 +1,28 @@
+@import '../variables/size.scss';
+
+// we could add a smaller mixin
+@mixin xs {
+	@media only screen and (max-width: $screen-xs) {
+		@content;
+	}
+}
+// Small devices (phones)
+@mixin sm {
+	@media only screen and (max-width: $screen-sm) {
+		@content;
+	}
+}
+
+// Medium devices (tablets)
+@mixin md {
+	@media only screen and (min-width: $screen-sm) and (max-width: $screen-md) {
+		@content;
+	}
+}
+
+// Large devices (desktops)
+@mixin lg {
+	@media only screen and (min-width: $screen-lg) {
+		@content;
+	}
+}

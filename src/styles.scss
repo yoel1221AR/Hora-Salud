@@ -1,1 +1,289 @@
-/* You can add global styles to this file, and also import other style files */
+// Importación de Angular Material (Debe ir primero)
+@use "@angular/material" as mat;
+
+// Importación de fuentes de Google
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+// Definición de paletas de colores de Angular Material
+$abssa-primary: mat.define-palette(mat.$indigo-palette);
+$abssa-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+$abssa-warn: mat.define-palette(mat.$red-palette);
+
+// Definición del tema basado en las paletas
+$abssa-theme: mat.define-light-theme(
+  (
+    color: (
+      primary: $abssa-primary,
+      accent: $abssa-accent,
+      warn: $abssa-warn,
+    ),
+  )
+);
+
+// Aplicación del tema a todos los componentes de Angular Material
+@include mat.core();
+@include mat.all-component-themes($abssa-theme);
+
+// FUENTES PERSONALIZADAS
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/assets/fonts/Montserrat-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/assets/fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/assets/fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/assets/fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/assets/fonts/Montserrat-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+// Estilos globales
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+
+
+// Animación de desvanecimiento
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+::-webkit-scrollbar {
+  background-color: #c9cbd0;
+  border-radius: 10px;
+  width: 8px;
+}
+
+  ::-webkit-scrollbar:horizontal {
+      height: 8px;
+  }
+
+/* Estilos del thumb del scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: #222B8B;
+  border-radius: 10px;
+  transition: all 0.3s ease; /* Transición suave */
+}
+
+  /* Efecto hover sobre el thumb */
+  ::-webkit-scrollbar-thumb:hover {
+      background-color: #1B3DDB; /* Cambia el color del thumb */
+      width: 10px; /* Agranda un poco el thumb */
+      border-radius: 12px; /* Suaviza los bordes */
+  }
+
+/* Efecto hover para scrollbar horizontal */
+::-webkit-scrollbar:horizontal:hover {
+  height: 6px; /* Agranda la altura del scrollbar horizontal */
+}
+
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+p{
+  margin: 0;
+}
+
+.title-primary {
+color:#cccccc;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600; /* SemiBold */
+/*   font-size: 30px; /* Tamaño de fuente */
+font-size: 4vh;
+} 
+.title-description {
+  color:#cccccc;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600; /* SemiBold */
+/*   font-size: 30px; /* Tamaño de fuente */
+font-size: 4vh;
+  } 
+.subtitle-primary{
+  color:#cccccc;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; /* Regular */
+/*   font-size: 20px;  *//* Tamaño de fuente */
+font-size: 3vh;
+}
+
+.title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600; /* SemiBold */
+/*   font-size: 60px; /* Tamaño de fuente */
+font-size: 8vh; 
+}
+.subtitle-on{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700; /* Bold */
+  font-size: 78px; /* Tamaño de fuente */
+}
+.subtitle-off{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600; /* SemiBold */
+  font-size: 78px; /* Tamaño de fuente */
+}
+.cursor{
+  cursor: pointer;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+flex-direction: row;
+padding: 3rem;
+}
+.columnas{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+a {
+  font-family: "Montserrat", sans-serif; /* Corrige la comilla extra */
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.flecha{
+  width: 14%;
+    height: 14rem;
+}#dropdownMenuLink {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff; /* Ajusta el color que desees */
+  text-decoration: none;
+}
+
+#dropdownMenuLink:hover,
+#dropdownMenuLink:focus,
+#dropdownMenuLink:active {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff; /* Mantiene el color original */
+  background-color: transparent; /* Mantiene el fondo original */
+  text-decoration: none; /* Elimina el subrayado */
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus,
+.dropdown-item:active {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: #5b6ff6; /* Color violeta para el item seleccionado */
+  color: white;
+}
+
+.cursor {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  text-transform: uppercase !important;
+  color: #ffffff !important; /* Ajusta según tu preferencia */
+  text-decoration: none !important;
+  display: flex;
+  align-items: center; /* Alinea el ícono y el texto */
+}
+
+.cursor:hover,
+.cursor:focus,
+.cursor:active {
+  color: #ffffff !important; /* Color fijo para todos los estados */
+  background-color: transparent !important; /* Sin cambios de fondo */
+  text-decoration: none !important; /* Sin subrayado */
+  outline: none !important; /* Elimina cualquier borde de enfoque */
+}
+
+.offcanvas-backdrop.show {
+  opacity: 0 !important; /* Remover la opacidad */
+  background-color: transparent !important; /* Hacer el fondo transparente */
+}
+
+
+body.offcanvas-open {
+  overflow: auto !important; /* Evita que el body se fije en la parte superior */
+}
+
+input {
+  height: 2.5rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid #dcdbdd;
+  cursor: pointer;
+}
+select {
+  height: 2rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid #dcdbdd;
+  cursor: pointer;
+}
+
+.p-carousel-item {
+  margin-left: 0.5rem;
+}
+
+.mat-drawer-content {
+  position: relative;
+  z-index: 1;
+  display: block;
+  height: 100%;
+  overflow: auto;
+}
+
+.mat-drawer-container {
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  display: block;
+  overflow: hidden;
+}
+
+section{
+  margin: 2rem 0;
+}

@@ -1,0 +1,71 @@
+.ab-rrhh-config-tipoasistencia {
+    &__row{
+        &-filters{
+        display: flex;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        margin: 0.75rem;
+        }
+    }
+}
+.buttonCheckboxFil {
+    float: left;
+    height: 2em;
+    border: 1px solid #999;
+    padding: 0;
+    border-radius: 4px;
+    width: 12rem;
+}
+
+.buttonCheckboxFil label input+span {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #6091F5;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #6091F5;
+    outline: none;
+}
+
+.buttonCheckboxFil input+span {
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.buttonCheckboxFil label {
+    width: 100%;
+    height: 100%;
+    padding: 0 !important;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buttonCheckboxFil label input {
+    position: absolute;
+    display: none;
+    color: #999 !important;
+    opacity: 0;
+}
+
+.buttonCheckboxFil label span {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 2em;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}

@@ -1,0 +1,237 @@
+@import "src/app/ab-styles/variables/color.scss";
+@import "src/app/ab-styles/mixins/generalText.scss";
+@import "src/app/ab-styles/mixins/size.scss";
+
+.ab-login-view {
+    &__background {
+            background-image: url("../../../../../../../../assets/img/login/login-unnio.webp");
+            background-size: cover;  /* Ajusta sin recortar */
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(255, 255, 255);
+        
+        
+    }
+
+    &__header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2rem 8rem;
+        align-items: center;
+        background-image: url(../../../../../../../../assets/img/navbar-menu.webp);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        color: $white;
+        position: sticky;
+
+
+
+        &-logo {
+            width: 10rem;
+        }
+    }
+
+    &__card {
+        &-title {
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        &-input-field {
+            padding: 1rem;
+            outline: none;
+            border: 1px solid $terciary;
+            border-radius: 1.5rem !important;
+        }
+
+        &-label {
+            font-size: 1rem;
+            color: $terciary;
+            text-align: center;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+
+        &-icon {
+            width: 1.25rem;
+            height: 1.25rem;
+            position: absolute;
+            z-index: 99;
+            left: 2rem;
+            top: 4.5rem;
+        }
+
+        &-buttons {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            padding: 0.5rem 0;
+
+            &--button {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                border-radius: 1rem;
+                border: none;
+                cursor: pointer;
+                color: #fff;
+                background-color: #007bff;
+                padding: 0.5rem;
+                font-size: 1rem;
+                transition: background-color 0.3s ease;
+            }
+
+            & :disabled {
+                background-color: #007bff7d;
+                cursor: not-allowed;
+            }
+
+            & :hover:not(:disabled) {
+                background-color: #0056b3;
+            }
+
+        }
+
+    }
+
+    &__footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(29, 37, 40, 0.8509803922);
+        width: 100%;
+        gap: 1rem;
+        position: absolute;
+        bottom: 0;
+        padding: 0.5rem;
+    }
+
+}
+
+@include md {
+    .ab-login-view__header {
+        padding: 1rem;
+    }
+
+    .card {
+        width: 50% !important;
+    }
+}
+
+@include sm {
+    p {
+        display: none;
+    }
+
+    .card {
+        width: 50% !important;
+    }
+}
+
+@include xs {
+
+    p {
+        display: none;
+    }
+
+    .card {
+        width: 90% !important;
+    }
+
+}
+
+a {
+    color: $white;
+    text-decoration: none;
+    font-family: 'gotham-medium';
+    background-color: transparent;
+    border: none;
+}
+
+p {
+    color: $white;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0.5rem;
+}
+
+
+/* .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 1rem;
+    width: 35%;
+    border-radius: 1rem;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+ */
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 1rem 4rem 3rem;
+    width: 35%;
+    border-radius: 2rem;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%; /* Ajusta según el diseño */
+}
+
+
+.input-container i {
+    position: absolute;
+    right: 10px; /* Ajusta la distancia del borde derecho */
+    color: $secondary; /* Ajusta el color */
+    pointer-events: none;
+    font-size: 1.5rem;
+}
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .ab-login-view__card-input-field {
+    padding-left: 3rem; }
+  
+  .unnio-icon {
+    position: absolute;
+    width: auto;
+    height: 100%; /* Hace que la imagen ocupe toda la altura del input */
+  }
+  
+  .start-icon {
+    left: 1px; /* Ajusta la posición de la imagen al inicio */
+  }
+  
+  .end-icon {
+    right: 1px; /* Ajusta la posición de la imagen al final */
+  }
+  

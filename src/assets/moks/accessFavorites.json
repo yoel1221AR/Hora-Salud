@@ -1,0 +1,61 @@
+[
+  {
+    "ID_EV_Accesos_Favoritos": 768,
+    "Nombre": "Asistencias",
+    "link_url": "gs_RRHH_asistencia.aspx",
+    "icono": "icoAsistencias.svg",
+    "ID_Entidad": 1,
+    "ID_Empleado": 2927
+  },
+  {
+      "ID_EV_Accesos_Favoritos": 769,
+      "Nombre": "Configuración",
+      "link_url": "gs_lista_abms.aspx",
+      "url": "gs_lista_abms",
+      "icono": "icoConfiguracion.svg",
+      "ID_Entidad": 1,
+      "ID_Empleado": 2927
+  },
+  {
+      "ID_EV_Accesos_Favoritos": 803,
+      "Nombre": "Empleados",
+      "link_url": "gs_EMP_empleados.aspx",
+      "icono": "icoEmpleados.svg",
+      "ID_Entidad": 1,
+      "ID_Empleado": 2927
+  },
+  {
+      "ID_EV_Accesos_Favoritos": 766,
+      "Nombre": "Formación",
+      "link_url": "gs_gestion_formacion.aspx",
+      "icono": "icoFormacion.svg",
+      "ID_Entidad": 1,
+      "ID_Empleado": 2927
+  },
+  {
+      "ID_EV_Accesos_Favoritos": 767,
+      "Nombre": "Formularios",
+      "link_url": "gs_Formularios_Formularios_Resumen.aspx",
+      "icono": "icoAdmViaticos.svg",
+      "ID_Entidad": 1,
+      "ID_Empleado": 2927
+  },
+  {
+      "ID_EV_Accesos_Favoritos": 765,
+      "Nombre": "Informes de Asistencias",
+      "link_url": "gs_RRHH_informeTipoAsis.aspx",
+      "url": "gs_RRHH_informeTipoAsis",
+      "icono": "icoInformes.svg",
+      "ID_Entidad": 1,
+      "ID_Empleado": 2927
+  },
+  {
+      "ID_EV_Accesos_Favoritos": 764,
+      "Nombre": "Sanciones",
+      "link_url": "gs_PlanHR_Sanciones.aspx",
+      "icono": "icoSanciones.svg",
+      "ID_Entidad": 1,
+      "ID_Empleado": 2927
+  }
+  ]
+  

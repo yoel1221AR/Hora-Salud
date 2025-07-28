@@ -1,0 +1,46 @@
+<app-ab-filter [fields]="fieldsData"></app-ab-filter>
+<div class="ab-rrhh-config-tipoasistencia__row-filters">
+    <div class="buttonCheckboxFil">
+        <label>
+            <input type="checkbox" id="chkAusentesInjustificados" autocomplete="off"><span>Ausentes injustificados</span>
+        </label>
+    </div>
+    <div class="buttonCheckboxFil">
+        <label>
+            <input type="checkbox" id="chkNovedadesPendientes" autocomplete="off"><span>Novedades pendientes</span>
+        </label>
+    </div>
+    <div class="buttonCheckboxFil">
+        <label>
+            <input type="checkbox" id="chkInconsistencias" autocomplete="off"><span>Inconsistencias</span>
+        </label>
+    </div>
+    <div class="buttonCheckboxFil">
+        <label>
+            <input type="checkbox" id="chkSoloTarde" autocomplete="off"><span>Tardes</span>
+        </label>
+    </div>
+    <div class="buttonCheckboxFil">
+        <label>
+            <input type="checkbox" id="chkMenosHsTrabajadas" autocomplete="off"><span>Menos hs trabajadas</span>
+        </label>
+    </div>
+    <div class="buttonCheckboxFil">
+        <label>
+            <input type="checkbox" id="chkDiasTrabajadosNoPlanif" autocomplete="off"><span>Dias trabajados no planif.</span>
+        </label>
+    </div>
+    <div class="buttonCheckboxFil">
+        <label>
+            <input type="checkbox" id="chkCambiaronPlanif" autocomplete="off"><span>Cambiaron planif.</span>
+        </label>
+    </div>
+    <div class="buttonCheckboxFil">
+        <label>
+            <input type="checkbox" id="chkSoloHE" autocomplete="off"><span>Horas excedentes</span>
+        </label>
+    </div>
+</div>
+<div class="container-fluid">
+<app-table [columns]="columns" [data]="data" tableStyle="default"></app-table>
+</div>

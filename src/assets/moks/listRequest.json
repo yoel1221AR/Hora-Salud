@@ -1,0 +1,92 @@
+[
+    {
+        "ID_EV_Solicitar": 1239,
+        "ID_Empleado": 2927,
+        "ID_Entidad": 1,
+        "Grupo": "Asistencias",
+        "Subgrupo": "Cierres",
+        "link_url": "gs_RRHH_procesar_liq.aspx",
+        "token": "ABS"
+    },
+    {
+        "ID_EV_Solicitar": 1240,
+        "ID_Empleado": 2927,
+        "ID_Entidad": 1,
+        "Grupo": "Asistencias",
+        "Subgrupo": "Informes",
+        "link_url": "gs_RRHH_informeTipoAsis.aspx",
+        "token": "ABS"
+    },
+    {
+        "ID_EV_Solicitar": 1242,
+        "ID_Empleado": 2927,
+        "ID_Entidad": 1,
+        "Grupo": "Comunicaciones",
+        "Subgrupo": "Nueva",
+        "link_url": "gs_Comunicaciones.aspx",
+        "token": "ABS"
+    },
+    {
+        "ID_EV_Solicitar": 1245,
+        "ID_Empleado": 2927,
+        "ID_Entidad": 1,
+        "Grupo": "Empleados",
+        "Subgrupo": "Gestor de Documentos",
+        "link_url": "gs_planhr_documentacion_preview.aspx",
+        "token": "ABS"
+    },
+    {
+        "ID_EV_Solicitar": 1241,
+        "ID_Empleado": 2927,
+        "ID_Entidad": 1,
+        "Grupo": "Empleados",
+        "Subgrupo": "Nuevo",
+        "link_url": "gs_emp_empleados.aspx",
+        "token": "ABS"
+    },
+    {
+        "ID_EV_Solicitar": 1246,
+        "ID_Empleado": 2927,
+        "ID_Entidad": 1,
+        "Grupo": "Empleados",
+        "Subgrupo": "Onboarding",
+        "link_url": "gs_emp_empleados.aspx",
+        "token": "ABS"
+    },
+    {
+        "ID_EV_Solicitar": 1248,
+        "ID_Empleado": 2927,
+        "ID_Entidad": 1,
+        "Grupo": "Empleados",
+        "Subgrupo": "Pre-Onboarding",
+        "link_url": "gs_empleado_formularioPreIngreso_Gestion.aspx",
+        "token": "ABS"
+    },
+    {
+        "ID_EV_Solicitar": 1247,
+        "ID_Empleado": 2927,
+        "ID_Entidad": 1,
+        "Grupo": "Pre-onboarding",
+        "Subgrupo": "Crear link",
+        "link_url": "preonboarding_Link",
+        "token": "ABS"
+    },
+    {
+        "ID_EV_Solicitar": 1244,
+        "ID_Empleado": 2927,
+        "ID_Entidad": 1,
+        "Grupo": "Recibos",
+        "Subgrupo": "Liquidaciones",
+        "link_url": "gs_Sueldo_Recibo_Liq.aspx",
+        "token": "ABS"
+    },
+    {
+        "ID_EV_Solicitar": 1243,
+        "ID_Empleado": 2927,
+        "ID_Entidad": 1,
+        "Grupo": "Vacaciones",
+        "Subgrupo": "Administración",
+        "link_url": "gs_RRHH_vacaciones.aspx?PROPIAS=0",
+        "token": "ABS"
+    }
+]

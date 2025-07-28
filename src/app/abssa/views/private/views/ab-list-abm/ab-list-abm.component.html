@@ -1,0 +1,26 @@
+<!-- <div class="section-header title-header">
+    <div class="container-fluid">
+        Configuración de datos maestros
+    </div>
+</div>
+ -->
+
+
+  <div class="container-fluid">
+    <div class="table table-responsive">
+      <div class="row section-abms">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-12" *ngFor="let group of groupedAbms | keyvalue">
+          <div class="tituloItem">
+            <span><i aria-hidden="true"></i>{{ group.key }}</span>
+          </div>
+          <div class="item" *ngFor="let solicitud of group.value">
+            <a href="#">
+              <i class="fa fa-database" aria-hidden="true"></i>
+              <strong>{{ solicitud.Subgrupo }}</strong>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

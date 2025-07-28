@@ -1,0 +1,41 @@
+<div class="card-table" *ngFor="let fields of data; let i = index">
+  <div class="card-table__information">
+    <span class="card-table__information-primary">{{ primaryInfo[i] }}</span>
+    <span class="card-table__information-dates">{{ datesInfo[i] }}</span>
+    <span class="card-table__information-secondary" *ngFor="let text of secondaryInfo[i]">{{ text }}</span>
+  </div>
+  <div class="card-table__menu">
+    <span class="card-table__menu-button" [ngStyle]="{ 'background-image' : 'url(assets/img/table/menu.svg)'}"></span>
+    <ng-container *ngTemplateOutlet="menuTemplate; context: {'fields': fields}"></ng-container>
+  </div>
+  <div class="card-table__state card-table__state--{{fields.state.toLowerCase()}}" *ngIf="fields.state">
+    {{ states[i] }}
+  </div>
+</div>
+
+
+
+<ng-template #menuTemplate let-fields="fields">
+  <div class="card-table__menu-template">
+    <div class="card-table__menu-template-info"  *ngFor="let key of keyColumns; trackBy: trackByFn">
+      <span class="card-table__menu-template-info--key">{{ tableHeads[key] }}</span>
+      <span class="card-table__menu-template-info--value">
+        {{ fields[key] | transformDataTable : key : keyTranslate }}
+      </span>
+    </div>
+
+    <div class="card-table__menu-template-actions">
+      <span class="card-table__menu-template-actions-action" *ngFor="let action of actions"
+      (click)="onAction(action,fields)"
+      [matTooltip]="getTooltipText(action, fields)"
+      [ngStyle]="{
+        'background-image': fields.isReported && action === 'report' ?
+          'url(assets/img/table/' + action + 'ed.svg)' :
+          'url(assets/img/table/' + action + '.svg)',
+        'opacity' : isActionSensitive(action, fields.state) ? 0.5: 1,
+        'pointer-events' : isActionSensitive(action, fields.state) ? 'none' : 'all'
+        }"></span>
+    </div>
+    
+  </div>
+</ng-template>

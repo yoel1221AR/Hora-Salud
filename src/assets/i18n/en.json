@@ -1,0 +1,76 @@
+
+{ "AB": {
+  "HOME-OPTIONS": {
+    "WE": "ABOUT US",
+    "WHAT_DO_WE_DO": "What we do"
+
+  },
+
+  "HEADER": {
+    "LANGUAGES": {
+      "ES": "Español (ES)",
+      "PT": "Portugués (PS)"
+    }
+  },
+"OPTIONS-NAVBAR":{
+     "BUSINESS-SERVICES":"Business services",
+    "WORK-WITH-US":"VISA H2A"
+
+},
+  "WE":
+   {
+    "WE": "About us",
+    "WHO-WE-ARE":"who are we?",
+    "DESCRIPTION":"Our mission is to simplify complexity and enhance the productivity of our partners. We are more than a consulting firm serving the industrial and agricultural sectors—we are a company committed to delivering innovative, sustainable solutions that drive meaningful results.",
+    "OPTIONS":{
+    "PURPOSE":{
+    "TITLE":"Purpose",
+  "DESCRIPTION":"Our purpose is to simplify and optimize processes, transforming complex challenges into simple solutions through an agile, human-centered, and organized approach." },
+  "PRIORITY":{
+    "TITLE":"Priority",
+  "DESCRIPTION":"Our priority is our people. We recognize that they are more than just resources—they are individuals with unique value, and their well-being and growth are central to everything we do." },
+  "DESCRIPTION":{
+    "TITLE":"We approach problems as opportunities to create solutions..."}
+ 
+}
+  },
+  "SERVICES": {
+  "TEMPORARY-STAFF": {
+    "TITLE": "- Payroll",
+    "DESCRIPTION": "We provide a comprehensive payroll management service, ensuring efficient and accurate staff payments while maintaining full compliance with legal regulations. Our service covers salaries, benefits, deductions, and all other aspects of employee compensation, giving you peace of mind and allowing you to focus on the critical operations of your business.",
+   "TEXT-DESTACTED":"We approach problems as opportunities to create solutions..."
+  },
+  "FACILITY-SERVICES": {
+    "TITLE": "",
+    "DESCRIPTION": ""
+   
+  },
+  "PAYROLL": {
+    "TITLE": "- Recruitment and Selection",
+    "DESCRIPTION": "At Amerbis, we specialize in finding and selecting top talent to ensure each worker aligns with the unique requirements of your company. Through a rigorous and tailored process, we identify the most qualified candidates for every position, evaluating not only their technical skills but also their ability to adapt to your organization's culture and needs. Our methodology combines in-depth competency analysis, comprehensive interviews, and thorough testing, enabling us to select the best professionals and ensure high performance and success across all areas of your business."
+   
+  },  "SEARCH-SELECCTION": {
+    "TITLE": "- Facility Services",
+    "DESCRIPTION": "We handle all your operational needs, including preventive and corrective maintenance of equipment and infrastructure, as well as the management of supplies and general services. Our skilled team ensures your facilities operate seamlessly, enabling you to concentrate on the core activities that drive your business."
+   
+  }
+},
+"WORK-WITH-US-EE-UU": {
+  "AMERBIS-EXPERIENCE": {
+    "TITLE": "VISA H2A",
+    "SUBTITLE": "- Onboarding",
+    "DESCRIPTION": "The onboarding process involves recruiting and selecting qualified workers, obtaining H2A visa approvals, and handling pre-travel logistics and documentation. It also includes coordinating travel to the United States to ensure a smooth transition for employees. Once in place, ongoing performance reviews are conducted to maintain efficiency and alignment with organizational goals.",
+     "TEXT-DESTACTED":"We approach problems as opportunities to create solutions."
+  },
+  "JOB-OPPORTUNITIES": {
+    "TITLE": "- Staffing",
+    "DESCRIPTION": "Full-Service provides end-to-end workforce solutions, including onboarding support and payroll management to ensure seamless integration and compliance. It also covers housing and catering, ensuring workers are well-accommodated and cared for. Additionally, logistics coordination ensures efficient transportation and operations for the staff."
+   ,"OPTIONS":{
+    "1":"",
+      "2":"",
+        "3":""
+   }
+  }
+}
+ 
+}}

@@ -1,0 +1,90 @@
+.table_component {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 1rem;
+  overflow: hidden; /* Para mantener los bordes redondeados */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); /* Sombra suave */
+  margin-top: 20px; /* Espacio arriba */
+  margin-bottom: 20px; /* Espacio abajo */
+}
+
+.table-container {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+th, td {
+  text-align: left;
+  padding: 0.3rem;
+  border: 1px solid transparent;
+  appearance: none;
+  font-size: 0.75rem;
+}
+
+th {
+  background-color: #e1e1e1;
+  color: rgb(0, 0, 0);
+}
+
+tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 1rem;
+}
+
+tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 1rem;
+}
+
+tbody tr:nth-child(odd) td {
+  background-color: #ffffff;
+}
+
+tbody tr:nth-child(even) td {
+  background-color: #D2E9FF;
+}
+
+tbody tr:hover td {
+  background-color: rgba(0, 123, 255, 0.1);
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+/* Estilo para el contenedor de la paginación */
+pagination-controls {
+  display: block;
+  margin-top: 15px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  th, td {
+    padding: 8px; /* Reducir el padding en dispositivos pequeños */
+  }
+}
+.ver-detalle {
+  border: 1px solid #73a2e4;
+  background-color: #73a2e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px; /* Ajusta el tamaño si es necesario */
+  height: 30px;
+  border-radius: 4px; /* Opcional, si quieres bordes redondeados */
+}
+
+.pagination-button {
+  background-color: #007bff; /* Azul */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination-button:hover {
+  background-color: #bc1e7d; /* Azul más oscuro al pasar el mouse */
+}

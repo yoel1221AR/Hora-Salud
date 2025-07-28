@@ -1,0 +1,57 @@
+<div class="ab-login-abssa-view">
+    <div class="ab-login-abssa-view__background">
+        <img class="ab-login-abssa-view__header-logo">
+
+        <form [formGroup]="loginForm" class="card">
+            <span class="ab-login-abssa-view__card-label">USUARIO</span>
+            <div class="ab-login-abssa-view__form">
+
+                <!-- Campo Usuario -->
+                <div>
+                    <div class="input-container">
+                        <img class="unnio-icon left-icon" src="../../../../../../../../assets/icons/iconos unnio/login.svg" alt="">
+                      <input id="username" formControlName="username" 
+                            class="ab-login-abssa-view__card-input-field" type="text" 
+                            placeholder="Ingresa tu nombre" required />
+                            <img class="unnio-icon right-icon" src="../../../../../../../../assets/icons/iconos unnio/flecha2-01.svg" alt="">
+                        </div>
+                </div>
+
+          <!-- Campo Contraseña -->
+<div>
+    <div class="input-container">
+        <img class="unnio-icon left-icon" src="../../../../../../../../assets/icons/iconos unnio/password-01.svg" alt="">
+        <input id="password" formControlName="password" 
+            class="ab-login-abssa-view__card-input-field" type="password" 
+            placeholder="Ingrese su contraseña" required />
+  </div>
+</div>
+<!--  <div class="ab-login-abssa-view__card-buttons">
+                <button type="submit" class="ab-login-abssa-view__card-buttons--button" [disabled]="loginForm.invalid">
+                    Ingresar
+                </button>
+            </div>
+ -->
+            <button (click)="nextPage()" class="ab-login-abssa-view__card-buttons--button">
+                INGRESAR
+                <img class="button-icon" src="../../../../../../../../assets/icons/iconos unnio/flecha3blanca-01.svg" alt="Flecha">
+            </button>
+
+            </div>
+
+           
+            
+            
+
+        </form>
+
+   <!--      <footer class="ab-login-abssa-view__footer">
+            <img class="ab-login-abssa-view__footer-logo" src="../../../assets/img/logo_footer_abssa.svg" alt="AMERBIS">
+            <p>
+                ® <strong>ABSSA</strong> Especialistas en Soluciones de Gestión | informes@abssa.net |
+                www.abssa.net<br>
+                Argentina +54 (11) 5365-9399 | España +34 608 59 19 67
+            </p>
+        </footer> -->
+    </div>
+</div>

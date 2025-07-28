@@ -1,0 +1,16 @@
+.ip-no-data {
+  &__not-found {
+    height: 100%;
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    &-text {
+      font-size: 1rem;
+      color: #000000;
+    }
+  }
+}

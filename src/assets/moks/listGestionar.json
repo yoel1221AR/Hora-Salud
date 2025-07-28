@@ -1,0 +1,86 @@
+[
+    {
+        "ID_EV_GEstionar": 1005,
+        "ID_Empleado": 2927,
+        "ID_Entidad": 1,
+        "Grupo": "Asistencias",
+        "Contador": 3,
+        "Subgrupo": "Aprobar Certificados",
+        "link_url": "gs_planhr_novedades.aspx?sEstadoCertifFil=1&idEmpleado=-1",
+        "logito": "",
+        "razon": "OMINT",
+        "token": "ABS"
+    },
+    {
+        "ID_EV_GEstionar": 1007,
+        "ID_Empleado": 2927,
+        "ID_Entidad": 1,
+        "Grupo": "Asistencias",
+        "Contador": 1,
+        "Subgrupo": "Aprobar Novedades",
+        "link_url": "gs_planhr_novedades.aspx?sEstadoNovFil=9&idEmpleado=-1&sAgrupadorFil=PAE",
+        "logito": "",
+        "razon": "OMINT",
+        "token": "ABS"
+    },
+    {
+        "ID_EV_GEstionar": 1006,
+        "ID_Empleado": 2927,
+        "ID_Entidad": 1,
+        "Grupo": "Asistencias",
+        "Contador": 349,
+        "Subgrupo": "Certificados pendientes de presentar",
+        "link_url": "gs_planhr_novedades.aspx?sEstadoCertifFil=0,R&idEmpleado=-1",
+        "logito": "",
+        "razon": "OMINT",
+        "token": "ABS"
+    },
+    {
+        "ID_EV_GEstionar": 856,
+        "ID_Empleado": 2927,
+        "ID_Entidad": 1,
+        "Grupo": "Asistencias",
+        "Contador": 43,
+        "Subgrupo": "Fichadas no identificadas",
+        "link_url": "gs_RRHH_control_vinculacion_fichadas.aspx",
+        "logito": "",
+        "razon": "OMINT",
+        "token": "ABS"
+    },
+    {
+        "ID_EV_GEstionar": 855,
+        "ID_Empleado": 2927,
+        "ID_Entidad": 1,
+        "Grupo": "Asistencias",
+        "Contador": 52,
+        "Subgrupo": "Horas Excedentes",
+        "link_url": "gs_RRHH_control_hsExcedentes.aspx",
+        "logito": "",
+        "razon": "OMINT",
+        "token": "ABS"
+    },
+    {
+        "ID_EV_GEstionar": 854,
+        "ID_Empleado": 2927,
+        "ID_Entidad": 1,
+        "Grupo": "Asistencias",
+        "Contador": 900,
+        "Subgrupo": "Inconsistencias",
+        "link_url": "gs_RRHH_control.aspx",
+        "logito": "",
+        "razon": "OMINT",
+        "token": "ABS"
+    },
+    {
+        "ID_EV_GEstionar": 1277,
+        "ID_Empleado": 2927,
+        "ID_Entidad": 39,
+        "Grupo": "Formación",
+        "Contador": 1,
+        "Subgrupo": "Curso Gratuito AZ-900 S-U",
+        "link_url": null,
+        "logito": "",
+        "razon": "IT College",
+        "token": "ITC"
+    }
+]

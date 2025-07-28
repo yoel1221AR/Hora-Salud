@@ -1,0 +1,83 @@
+
+{ "AB": {
+    "HOME-OPTIONS": {
+      "WE": "Nosotros",
+      "WHAT_DO_WE_DO": "Qué hacemos"
+  
+    },
+
+    
+
+
+ 
+    "HEADER": {
+      "LANGUAGES": {
+        "ES": "Español (ES)",
+        "PT": "Portugués (PS)"
+      }
+    },
+"OPTIONS-NAVBAR":{
+     "BUSINESS-SERVICES":"Servicios para empresas",
+    "WORK-WITH-US":"Trabajá en ee.uu"
+    
+   
+},
+    "WE":
+     {
+      "WE": "Nosotros",
+      "WHO-WE-ARE":"¿Quienes somos?",
+      "DESCRIPTION":"Nuestra razón de ser es simplificar la complejidad y disminuir la improductividada de nuestros socios. No somos sólo una consultara dedicada a proporcionar servicios a la industria y a la producción agrícola, somos una empresa que proporciona soluciones innovadores y sostenibles."
+,"OPTIONS":{
+      "PURPOSE":{
+      "TITLE":"Propósito",
+    "DESCRIPTION":"Nuestro propósito es simplificar y optimizar los procesos, transformar lo complejo en sencillo con un metodo agil, humano y organizado."
+      },
+    "PRIORITY":{
+      "TITLE":"Prioridad",
+    "DESCRIPTION":"Hacemos nuestro trabajo con una prioridad, las personas. Porque entendemos que los humanos, mas que recursos somos seres humanos."
+    },
+    "DESCRIPTION":{
+      "TITLE":"Donde hay problemas, nosotros vemos oportunidades..."}
+   
+  }
+    },
+    "SERVICES": {
+    "TEMPORARY-STAFF": {
+      "TITLE": "- Personal Temporario",
+      "DESCRIPTION": "Ofrecemos soluciones integrales de personal temporario en Argentina, diseñadas para cubrir las necesidades laborales de las empresas en momentos de alta demanda o proyectos específicos. Este servicio permite a las organizaciones acceder a trabajadores calificados de manera flexible y rápida, sin comprometer la eficiencia ni la calidad de sus operaciones.",
+     "TEXT-DESTACTED":"Donde hay problemas, nosotros vemos oportunidades…"
+    },
+    "FACILITY-SERVICES": {
+      "TITLE": "- Facility Services",
+      "DESCRIPTION": "Nos encargamos de todas las necesidades operativas, desde el mantenimiento preventivo y correctivo de equipos e infraestructuras hasta la gestión de suministros y servicios generales. Nuestro equipo altamente capacitado garantiza que cada aspecto de sus instalaciones funcione sin contratiempos, permitiéndole concentrarse en las actividades clave de su negocio."
+     
+    },
+    "PAYROLL": {
+      "TITLE": "- Payroll",
+      "DESCRIPTION": "Ofrecemos un servicio integral de gestión de nómina, asegurando que el proceso de pago de su personal sea eficiente, preciso y cumpla con todas las normativas legales. Nos encargamos de administrar salarios, beneficios, deducciones, y todos los aspectos relacionados con la remuneración de sus empleados, brindándole tranquilidad y permitiéndole enfocarse en las operaciones clave de su negocio."
+     
+    },  "SEARCH-SELECCTION": {
+      "TITLE": "- Búsqueda y selección",
+      "DESCRIPTION": "En Amerbis, nos especializamos en la búsqueda y selección de talento, asegurando que cada trabajador cumpla con los requisitos específicos de su empresa. A través de un proceso riguroso y personalizado, identificamos a los candidatos más calificados para cada puesto, evaluando no solo sus habilidades técnicas, sino también su capacidad para adaptarse a la cultura y las necesidades de su organización."
+     
+    }
+  },
+  "WORK-WITH-US-EE-UU": {
+    "AMERBIS-EXPERIENCE": {
+      "TITLE": "Trabajá en ee.uu",
+      "SUBTITLE": "- Experiencia AMERBIS",
+      "DESCRIPTION": "Nos encargamos de facilitar todo el proceso, desde la selección hasta la gestión de tu VISA, asegurando que cumplas con todos los requisitos legales. A través de esta oportunidad, podrás trabajar en proyectos de producción de semillas, desarrollarte  profesionalmente, y formar parte de un equipo comprometido con el éxito de grandes operaciones agrícolas.",
+       "TEXT-DESTACTED":"Te acompañamos en cada paso del camino"
+    },
+    "JOB-OPPORTUNITIES": {
+      "TITLE": "- Oportunidades Laborales",
+      "DESCRIPTION": "Estamos buscando trabajadores comprometidos para unirse a importantes empresas de producción de semillas en los Estados Unidos bajo el programa H2A. Los roles que necesitamos cubrir incluyen:"
+     ,"OPTIONS":{
+      "1":"1. Trabajadores para departamentos de Investigación y Desarrollo (+ INFO)",
+        "2":"2. Operadores de maquinaria agrícola (+ INFO)",
+          "3":"3. Trabajadores para la planta de procesamiento de semillas (+ INFO)"
+     }
+    }
+  }
+   
+  }}

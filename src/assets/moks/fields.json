@@ -1,0 +1,62 @@
+[
+  {
+      "ID": 3444,
+      "Name": "area",
+      "Visible": true,
+      "FillFunction": "",
+      "Tipo": "combo",
+      "Orden": 5,
+      "SearchBy": "0",
+      "esPrincipal": 1
+  },
+  {
+      "ID": 3445,
+      "Name": "Desde",
+      "Visible": true,
+      "FillFunction": "",
+      "Tipo": "fecha",
+      "Orden": 0,
+      "SearchBy": "0",
+      "esPrincipal": 1
+  },
+  {
+      "ID": 3446,
+      "Name": "empresa",
+      "Visible": true,
+      "FillFunction": "",
+      "Tipo": "combo",
+      "Orden": 3,
+      "SearchBy": "0",
+      "esPrincipal": 1
+  },
+  {
+      "ID": 3447,
+      "Name": "Hasta",
+      "Visible": true,
+      "FillFunction": "",
+      "Tipo": "fecha",
+      "Orden": 1,
+      "SearchBy": "0",
+      "esPrincipal": 1
+  },
+  {
+      "ID": 3448,
+      "Name": "Nombre, DNI o CUIL",
+      "Visible": true,
+      "FillFunction": "",
+      "Tipo": "texto",
+      "Orden": 2,
+      "SearchBy": "0",
+      "esPrincipal": 1
+  },
+  {
+      "ID": 3449,
+      "Name": "Planta",
+      "Visible": true,
+      "FillFunction": "",
+      "Tipo": "combo",
+      "Orden": 4,
+      "SearchBy": "0",
+      "esPrincipal": 1
+  }
+]

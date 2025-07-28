@@ -1,0 +1,43 @@
+<div class="ab-login-view">
+  <div class="ab-login-view__background">
+        <img class="ab-login-view__header-logo">
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="card"><!-- 
+    <span class="ab-login-view__card-title">Ingreso panel de control</span> -->
+  
+    <label for="username" class="ab-login-view__card-label">Usuario</label>
+    <div class="input-container">
+      <img class="unnio-icon start-icon" src="../../../../../../../../assets/icons/iconos unnio/login.svg" alt="">
+      <input 
+        id="username" 
+        formControlName="username" 
+        class="ab-login-view__card-input-field" 
+        type="text" 
+        placeholder="Ingresa tu nombre" 
+        required 
+      />
+      <img class="unnio-icon end-icon" src="../../../../../../../../assets/icons/iconos unnio/flecha2-01.svg" alt="">
+    </div>
+    
+
+ <button 
+  (click)="nextPage()" 
+  class="ab-login-view__card-buttons--button" 
+  >
+  SIN VALIDACION
+</button> 
+  </form>
+  
+
+  
+
+<!-- <footer class="ab-login-view__footer">
+   <img class="ab-login-view__footer-logo" src="../../../assets/img/logo_footer_abssa.svg" alt="AMERBIS">
+    <p>
+        ® <strong>ABSSA</strong> Especialistas en Soluciones de Gestión | informes@abssa.net | www.abssa.net<br>
+    Argentina +54 (11) 5365-9399 | España +34 608 59 19 67</p>
+
+ </footer> -->
+  </div>
+</div>
+
+

@@ -1,0 +1,167 @@
+<section class="gs-dashboard__desktop-section">
+      <div class="panel panelLinks" id="PanelLinks">
+        <div class="row container-fluid">
+          <button type="button" class="cont-left">
+            <i class="fa fa-chevron-left"></i>
+          </button>
+          
+          <div class="container-links">
+            <a *ngFor="let item of accessFavorites" class="item-link" (click)="navigateTo(item.url)">
+              <div class="circle">
+                <img class="gs-dashboard__card-wrapper-image" src="../../../../../../assets/svg/{{item.icono}}">
+              </div>
+              <div class="gs-dashboard__card-wrapper-name">{{ item.Nombre }}</div>
+            </a>
+          </div>
+          
+          
+          <button type="button" class="cont-right">
+            <i class="fa fa-chevron-right"></i>
+          </button>
+        </div>
+        
+        <i class="fa-svg fa-cog hidden"></i>
+      </div>
+      
+  </section>
+  
+  <section class="gs-dashboard__mobile-section">
+    <div class="gs-dashboard">
+      <div class="gs-dashboard__grid">
+        <div *ngFor="let item of accessFavorites" class="gs-dashboard__card">
+          <div class="gs-dashboard__card-wrapper">
+            <img
+              class="gs-dashboard__card-wrapper-image"
+              src="../../../../../../assets/svg/{{item.icono }}"
+           
+            />
+          </div>
+          <p class="gs-dashboard__card-wrapper-name">{{ item.Nombre }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section>
+    <div class="container-fluid">
+      <div class="gs-dashboard__columns-responsive">
+ <div  class="col-12 col-md-6 gs-dashboard__panel"> 
+  <div class="gs-dashboard__panel-title">Solicitudes</div>
+  <p class="gs-dashboard__panel-subgroups--textOff">En esta seccion tendras acceso a todas las acciones que puedas solicitar.</p>
+        <div class="title-panel" *ngFor="let group of groupedSolicitudes | keyvalue">
+          <div class="gs-dashboard__panel-subgroups">
+          <div class="gs-dashboard__panel-subgroups--optionOff">{{ group.key }}</div>
+           <div class="gs-dashboard__panel-subgroups--options"> <span class="gs-dashboard__panel-subgroups--option" *ngFor="let solicitud of group.value">
+              {{ solicitud.Subgrupo }} 
+            </span>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div  class="col-12 col-md-6 gs-dashboard__panel"> 
+  
+        <div class="gs-dashboard__panel-title">Gestionar</div>
+        <p class="gs-dashboard__panel-subgroups--textOff">En esta seccion se mostrarán todas las tareas que requieran una accion de tu parte.</p>
+              <div class="title-panel" *ngFor="let group of groupedGestiones | keyvalue">
+                <div class="gs-dashboard__panel-subgroups">
+                <div class="gs-dashboard__panel-subgroups--optionOff">{{ group.key }}</div>
+                 <div class="gs-dashboard__panel-subgroups--options"> <span class="gs-dashboard__panel-subgroups--option" *ngFor="let solicitud of group.value">
+                    {{ solicitud.Subgrupo }} 
+                  </span>
+                </div>
+              </div>
+              </div>
+            </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container-fluid">
+      <div class="gs-dashboard__columns-responsive">
+ <div  class="col-12 col-md-6 gs-dashboard__panel"> 
+  <div class="gs-dashboard__panel-header">
+  <div class="gs-dashboard__panel-title">Eventos inscriptos</div>
+  <button class="gs-dashboard__panel-header--option">Ver todas</button>
+</div>
+  <p class="gs-dashboard__panel-subgroups--textOff">En esta seccion verás los eventos en las que estas inscripto.</p>
+  <div class="title-panel" *ngFor="let training of listTrainings | keyvalue">
+    <div class="gs-dashboard__panel-subgroups">
+    <div class="gs-dashboard__panel-subgroups--optionOff">{{ training.key }}</div>
+  </div>
+  </div>
+      </div>
+      <div  class="col-12 col-md-6 gs-dashboard__panel"> 
+  <div class="gs-dashboard__panel-header">
+        <div class="gs-dashboard__panel-title">Capacitaciones planificadas</div>
+        <button class="gs-dashboard__panel-header--option">Sugeridas</button>
+      </div>
+        <p class="gs-dashboard__panel-subgroups--textOff">En esta seccion verás las capacitaciones disponibles segun tu area y puesto.</p>
+              <div class="title-panel" *ngFor="let training of listTrainings | keyvalue">
+                <div class="gs-dashboard__panel-subgroups">
+                <div class="gs-dashboard__panel-subgroups--optionOff">{{ training.key }}</div>
+              </div>
+              </div>
+            </div>
+      </div>
+    </div>
+  </section> 
+  
+  <div id="sectionEventos_xFormacion" class="col-md-12" style="padding: 0;"><div class="col-md-6 col-sm-6 col-xs-12" style="margin: 1.5rem 0;">
+    <div class="card card-body">
+        <div style="display: flex; align-items: left; justify-content: left;">
+            <img src="../res/images/iconsEv/icoEventoCalendario.svg" style="margin-right: 5px; transition: color 0.3s ease; height: 2rem">
+            <strong>Curso Gratuito AZ-900 S-U JUEVES</strong> 
+        </div>
+        <div style="font-size: 12px; margin-top: 5px; text-align: left;" class="card-text">
+            <div style="display: flex; justify-content: space-between; width: 100%;">
+                
+                    <div><strong>Fecha:</strong> 11/03/2025</div>
+                    <div><strong>Horario:</strong> 11:00 - 12:00</div>
+                
+            </div>
+
+            
+
+            <div style="margin-top: 5px;" class="card-text"><strong>Lugar:</strong> nada....</div>
+            <div class="card-text"><strong>Presencialidad:</strong> Presencial</div>
+            <div><strong>Instructor:</strong> Marquevich Carola</div>
+        </div>
+        <div style="margin-top: 10px; text-align: center;">
+            
+                <button type="button" class="btn btn-info" onclick="eliminarEmp_Formacion(3,160,109); event.stopPropagation();">
+                    <i class="fa fa-times"></i>&nbsp;Desvincularme
+                </button>                                                                                                                                         
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6 col-sm-6 col-xs-12" style="margin: 1.5rem 0;">
+    <div class="card card-body">
+        <div style="display: flex; align-items: left; justify-content: left;">
+            <img src="../res/images/iconsEv/icoEventoCalendario.svg" style="margin-right: 5px; transition: color 0.3s ease; height: 2rem">
+            <strong>CAPACITACIÓN</strong> 
+        </div>
+        <div style="font-size: 12px; margin-top: 5px; text-align: left;" class="card-text">
+            <div style="display: flex; justify-content: space-between; width: 100%;">
+                
+                    <div><strong>Desde:</strong> 03/03/2025</div>
+                    <div><strong>Hasta:</strong> 07/03/2025</div>
+                
+            </div>
+
+            
+
+            <div style="margin-top: 5px;" class="card-text"><strong>Lugar:</strong> No especificado</div>
+            <div class="card-text"><strong>Presencialidad:</strong> Virtual</div>
+            <div><strong>Instructor:</strong> No asignado</div>
+        </div>
+        <div style="margin-top: 10px; text-align: center;">
+            
+                <button type="button" class="btn btn-info" onclick="eliminarEmp_Formacion(3,175,112); event.stopPropagation();">
+                    <i class="fa fa-times"></i>&nbsp;Desvincularme
+                </button>                                                                                                                                         
+        </div>
+    </div>
+</div></div>

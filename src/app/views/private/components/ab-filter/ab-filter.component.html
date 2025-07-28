@@ -1,0 +1,51 @@
+<div class="section-header">
+  <div class="title-header">
+    <a id="btnFlechaVolver" routerLink="/home" class="btn-back">
+      <i class="fa fa-arrow-circle-left"></i>
+    </a>
+    <span >Menú de Opciones</span>
+  </div>
+
+  <div class="dropdown-container">
+    <button class="btn-dropdown" (click)="toggleDropdown()">
+      <i class="fa fa-bars"></i>
+    </button>
+    <ul class="dropdown-menu" [class.show]="dropdownOpen">
+      <li (click)="navegar('opcion1')">
+        <a href="#">DIARIO</a>
+      </li>
+      <li (click)="navegar('opcion2')">
+        <a href="#">DETALLE DE FICHADAS</a>
+      </li>
+      <li (click)="navegar('opcion3')">
+        <a href="#">HORAS BOLSA</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="ab-filter">
+
+<div *ngFor="let field of getOrderedFields() | filterByVisible">
+  <div *ngIf="field.Visible">
+    <label [for]="field.Name">{{ field.Name }}</label>
+
+    <ng-container [ngSwitch]="getFieldType(field)">
+      <!-- Date Input -->
+      <input *ngSwitchCase="'date'" [id]="field.Name" [name]="field.Name" type="date" />
+      
+      <!-- Combo (Select) -->
+      <select *ngSwitchCase="'select'" [id]="field.Name" [name]="field.Name">
+        <option value="">Seleccione</option>
+        <!-- Puedes agregar opciones aquí si es necesario -->
+      </select>
+      
+      <!-- Text Input -->
+      <input *ngSwitchCase="'text'" [id]="field.Name" [name]="field.Name" type="text" />
+
+      <!-- Default (no type match) -->
+      <span *ngSwitchDefault>Tipo no reconocido</span>
+    </ng-container>
+  </div>
+</div>
+</div>

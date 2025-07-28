@@ -1,0 +1,36 @@
+<ng-container *ngIf="data.length > 0">
+  <div class="table-container">
+    <table class="table_component">
+      <thead [ngStyle]="tableStyles[tableStyle].dataHead">
+        <tr>
+          <th *ngFor="let column of getVisibleColumns()" [ngClass]="{'hidden': getColumnType(column)}">
+            <ng-container *ngIf="!getColumnType(column)">
+              {{ column.Name }}
+            </ng-container>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of data | paginate: { itemsPerPage: 5, currentPage: page }" [ngStyle]="tableStyles[tableStyle].dataRow">
+          <td *ngFor="let column of getVisibleColumns()">
+            <ng-container *ngIf="getColumnType(column)">
+              <button 
+              matTooltip="Ver detalle" 
+              (click)="onViewDetail(row)" 
+              [ngClass]="{'ver-detalle': showDetailStyle(row)}">
+            </button>
+            </ng-container>
+            <ng-container *ngIf="!getColumnType(column)">
+              {{ row[column.Field] || '-' }}
+            </ng-container>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <pagination-controls (pageChange)="onPageChange($event)"
+    [previousLabel]="'Anterior'" 
+    [nextLabel]="'Siguiente'">
+</pagination-controls>
+</ng-container>

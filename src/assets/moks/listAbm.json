@@ -1,0 +1,354 @@
+[
+    {
+      "ID_EV_Solicitar": 1240,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "ASISTENCIAS",
+      "Subgrupo": "Tipos de Asistencias",
+      "link_url": "gs_RRHH_informeTipoAsis.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1240,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "ASISTENCIAS",
+      "Subgrupo": "Turno",
+      "link_url": "gs_RRHH_informeTipoAsis.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1240,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "ASISTENCIAS",
+      "Subgrupo": "Horarios/Patrones",
+      "link_url": "gs_RRHH_informeTipoAsis.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1240,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "ASISTENCIAS",
+      "Subgrupo": "Feriados",
+      "link_url": "gs_RRHH_informeTipoAsis.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1240,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "ASISTENCIAS",
+      "Subgrupo": "Tipo Actividad",
+      "link_url": "gs_RRHH_informeTipoAsis.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1240,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "ASISTENCIAS",
+      "Subgrupo": "Horas por Convenio %",
+      "link_url": "gs_RRHH_informeTipoAsis.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1240,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "ASISTENCIAS",
+      "Subgrupo": "Planificación Automática",
+      "link_url": "gs_RRHH_informeTipoAsis.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1241,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "EMPLEADOS",
+      "Subgrupo": "Categoria",
+      "link_url": "gs_emp_empleados.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1242,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "EMPLEADOS",
+      "Subgrupo": "Motivo Baja",
+      "link_url": "gs_emp_empleados.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1243,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "EMPLEADOS",
+      "Subgrupo": "Diagnóstico Médico",
+      "link_url": "gs_emp_empleados.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1244,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "EMPLEADOS",
+      "Subgrupo": "Obra Social",
+      "link_url": "gs_emp_empleados.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1245,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "EMPLEADOS",
+      "Subgrupo": "Convenios",
+      "link_url": "gs_emp_empleados.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1246,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "EMPLEADOS",
+      "Subgrupo": "ART",
+      "link_url": "gs_emp_empleados.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1247,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "EMPLEADOS",
+      "Subgrupo": "Sindicatos",
+      "link_url": "gs_emp_empleados.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1248,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "EMPLEADOS",
+      "Subgrupo": "Puestos Funcionales",
+      "link_url": "gs_emp_empleados.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1249,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "EMPLEADOS",
+      "Subgrupo": "Nivel de Estudios",
+      "link_url": "gs_emp_empleados.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1250,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "EMPLEADOS",
+      "Subgrupo": "Discapacidad",
+      "link_url": "gs_emp_empleados.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1251,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "FORMACIÓN",
+      "Subgrupo": "Habilidades",
+      "link_url": "gs_formacion.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1252,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "GASTOS",
+      "Subgrupo": "Cotización",
+      "link_url": "gs_gastos.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1253,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "GASTOS",
+      "Subgrupo": "Cuentas",
+      "link_url": "gs_gastos.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1254,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "GASTOS",
+      "Subgrupo": "Familia",
+      "link_url": "gs_gastos.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1255,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "GASTOS",
+      "Subgrupo": "Moneda",
+      "link_url": "gs_gastos.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1256,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "GASTOS",
+      "Subgrupo": "Rubro Gastos",
+      "link_url": "gs_gastos.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1257,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "GASTOS",
+      "Subgrupo": "Centro de Costo",
+      "link_url": "gs_gastos.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1258,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "GENERAL",
+      "Subgrupo": "Parentesco",
+      "link_url": "gs_general.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1259,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "GENERAL",
+      "Subgrupo": "Sindicatos",
+      "link_url": "gs_general.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1260,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "GENERAL",
+      "Subgrupo": "Plantas",
+      "link_url": "gs_general.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1261,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "GENERAL",
+      "Subgrupo": "Uniformes",
+      "link_url": "gs_general.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1262,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "GENERAL",
+      "Subgrupo": "Áreas",
+      "link_url": "gs_general.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1263,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "GENERAL",
+      "Subgrupo": "Empresa",
+      "link_url": "gs_general.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1264,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "PLAN HR",
+      "Subgrupo": "Tipo Documentacion",
+      "link_url": "gs_planhr.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1265,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "PLAN HR",
+      "Subgrupo": "Tipo Liquidacion",
+      "link_url": "gs_planhr.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1266,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "PLAN HR",
+      "Subgrupo": "Proceso (Tipo Documentacion)",
+      "link_url": "gs_planhr.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1267,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "PLAN HR",
+      "Subgrupo": "Sub perfiles",
+      "link_url": "gs_planhr.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1268,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "SANCIONES",
+      "Subgrupo": "Tipo Sanciones",
+      "link_url": "gs_sanciones.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1269,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "SANCIONES",
+      "Subgrupo": "Sanciones Causas",
+      "link_url": "gs_sanciones.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1270,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "SUELDOS",
+      "Subgrupo": "Conceptos y Fórmulas",
+      "link_url": "gs_sueldos.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1271,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "SUELDOS",
+      "Subgrupo": "Adicionales fijos / Novedades",
+      "link_url": "gs_sueldos.aspx",
+      "token": "ABS"
+    },
+    {
+      "ID_EV_Solicitar": 1272,
+      "ID_Empleado": 2927,
+      "ID_Entidad": 1,
+      "Grupo": "WORKFLOW",
+      "Subgrupo": "Workflow",
+      "link_url": "gs_workflow.aspx",
+      "token": "ABS"
+    }
+  ]
+  
